@@ -1,5 +1,5 @@
-application: wikitheoria-hrd
-version: 145
+application: wiki-local
+version: 150
 runtime: python27
 api_version: 1
 threadsafe: true
