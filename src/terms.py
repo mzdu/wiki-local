@@ -86,6 +86,7 @@ class DefineTermHandler(webapp2.RequestHandler):
         except:
             doRender(self, 'error.html', {'error' : 'Not a valid term to define'})
             return
+        
         values = {'slug' : slug, 'term' : slug.replace('-', ' ')}
         doRender(self, 'newDefinition.html', values)
         
