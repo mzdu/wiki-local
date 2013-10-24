@@ -76,6 +76,7 @@ body {
 .mainTitle {
     font-size:xx-large;
     font-weight:bold;
+    color:black
 }
 
 
@@ -87,7 +88,7 @@ a {
     color:#0198E1;
 }
 a:hover{
-	text-decoration:underline;
+	text-decoration:none;
     color:#0198E1;
 }
 
@@ -127,7 +128,9 @@ a:hover{
     list-style:none;
     margin:0;
     padding:5px 0px 0px 0px;
+    
 }
+
 
 #subNav li {
     float:left;
@@ -137,6 +140,7 @@ a:hover{
     text-align:center;
     color:#FFF;
     font-size:14px;
+    
 }
 
 #subNav li a {
@@ -153,6 +157,14 @@ a:hover{
 #subNav li a:hover {
     background-color:#00CC44;
 }
+
+#subNav li:hover > ul{
+	display:none;
+	font-size: 50%;
+}
+
+
+
 
 
 /* =Main Content
