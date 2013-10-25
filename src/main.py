@@ -467,7 +467,8 @@ app = webapp2.WSGIApplication([
                                           ('/contribute.*', ContributeHandler),
                                           ('/feedback.*', FeedbackHandler),
                                           ('/contact.*', ContactHandler),
-                                          ('/join.*', JoinHandler)
+                                          ('/join.*', JoinHandler),
+                                          ('/', MainPageHandler)
                                           ],debug = True)
     
 
