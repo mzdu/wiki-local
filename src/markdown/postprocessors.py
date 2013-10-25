@@ -7,8 +7,6 @@ that they need to implement a "run" method. However, they are run after core
 processing.
 
 """
-
-
 import markdown
 
 class Processor:
